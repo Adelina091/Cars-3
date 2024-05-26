@@ -1,0 +1,175 @@
+const cars_info = {
+    cars: [
+        {
+            "id": 1,
+            "name": "BMW",
+            "img": "https://wallpapers.com/images/featured/1920x1080-bmw-k85uw5ar84mfsbem.jpg",
+            "text": "The MW 3 Series is the sixth generation of 3 Series passenger cars from the German automaker BMW, production of which began at the end of October 2011. The sedan, station wagon and sports version remained in the model range, the remaining cars were allocated to the 4th series. The new sedan (German Limousine) has become larger, longer and wider, which made its silhouette even more rapid. The elongated and narrower shape of the “nostrils” slightly inclined forward, which were in contact with twin headlights with luminous rings and LED “eyelashes” above them, formed a single visual element emphasizing the increased width of the car.",
+            "price": "25.000$"
+        },
+        {
+            "id": 2,
+            "name": "Nissan",
+            "img": "https://images.wallpaperscraft.ru/image/single/nissan_gtr_nissan_sportkar_139668_1920x1080.jpg",
+            "text": "In March 2016, Nissan brought an updated version of its GT-R sports car to New York. Produced since 2007, the car has received noticeable changes in appearance - a completely new design of the front end with an enlarged signature V-shaped grille, a reinforced hood and a new spoiler. The latter provided an increase in downforce, and additional sill trims improved aerodynamic performance, while the ground clearance remained unchanged. In addition to practical solutions, changes to the exterior added expressiveness to the car. In addition, the GT-R received a more rigid body structure and an upgraded suspension, which had a positive effect on the car's handling.",
+            "price": "45.000$"
+        },
+        {
+            "id": 3,
+            "name": "Mercedes-Benz",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRszrZyFBMzBbEttsg-moALgxsBfJ9Hhyza5jDn0872VA&s",
+            "text": "The AMG GT takes over its exterior design from its predecessor the SLS AMG - the same wide wheel arches and a similar lower part of the car, but the doors are not made in the gullwing style. The large hood and thin windshield also remain the same. The lead exterior designer was Mark Fetherston, known for his previous work on the W176 A-Class, CLA-Class and SLS[4]. The interior designer was Jan Kaul, who designed the large center console and decorative design elements made of leather and carbon polymer[5]. The trunk can accommodate a medium-sized suitcase. The vehicle's structure is made up of 93% aluminum, the front module is mainly made of magnesium.",
+            "price": "10.000$"
+        },
+        {
+            "id": 4,
+            "name": "Ferrari",
+            "img": "https://images.wallpaperscraft.ru/image/single/ferrari_458_italia_avto_99758_1920x1080.jpg",
+            "text": "The car's exterior design and performance have been designed with aerodynamic efficiency in mind, producing 140 kg (309 lb) of downforce at 200 km/h (124 mph). In particular, the front grille features deformable wings that lower at high speeds to reduce drag. The car's interior was designed using materials from former Ferrari Formula 1 driver Michael Schumacher. In a racing car design, the new steering wheel incorporates a variety of controls typically located on the instrument panel or on steering wheel paddles, such as the turn signals or high beams.",
+            "price": "50.000$"
+        },
+        {
+            "id": 5,
+            "name": "Subaru",
+            "img": "https://i.artfile.ru/1920x1080_1561194_[www.ArtFile.ru].jpg",
+            "text": "Subaru WRX (until 2014 Subaru Impreza WRX) is an all-wheel drive car, a “charged” version initially of the Subaru Impreza model, and from 2021 of the Subaru Levorg model. It was produced at different times in sedan, station wagon (until 2007) and hatchback (since 2007) versions. Sales of the Subaru Impreza WRX began in 1992 in Japan, but very soon the model was also sold in Australia, North America and Europe. Compared to the base model, the WRX comes with wider, low-profile tires, upgraded brakes and a stiffer suspension. The main difference between the WRX and cheaper modifications is the presence of turbocharging in all variants, the external difference is the air intake on the hood, a different radiator grille, reduced ground clearance, increased wheel diameter.",
+            "price": "30.000$"
+        },
+        {
+            "id": 6,
+            "name": "Toyota",
+            "img": "https://i0.wp.com/i.redd.it/obmat9yo4mi81.jpg?resize=1200%2C800&ssl=1",
+            "text": "Toyota Supra is a serial sports car produced by Toyota since 1978. The Supra's design was adopted from the Toyota Celica, but the body became longer and wider. Beginning in mid-1986, the Supra separated from the Celica, becoming its own model. In this regard, Toyota stopped using the Celica prefix, and the car began to be called simply Supra. The first, second and third generations of Supra were assembled at the Takhara plant, the fourth generation at the Toyota plant in Japan, and the fifth generation was assembled both in Japan (in the city of Toyota) and in Austria (in the city of Graz by Magna Steyr). The Supra also shares a connection with the Toyota 2000GT, from which it shares its engine.",
+            "price": "20.000$"
+        },
+        {
+            "id": 7,
+            "name": "Peugeot",
+            "img": "https://www.hdwallpapers.in/download/compact_car_green_car_peugeot_peugeot_308_4k_hd_cars-1920x1080.jpg",
+            "text": "Peugeot 508 is a mid-size car from the French company Peugeot, part of the PSA Peugeot Citroën concern. It was officially presented at the 2010 Geneva Motor Show and the same year at the Paris Motor Show, with sales beginning in early 2011. Replaced Peugeot 407 and Peugeot 607 in the model range. Available in two body types - sedan and station wagon. The salon will retain the dimensions of the 607 model, and the station wagon will be equipped with a glass roof. Also, the 508 is a continuation of the 500 series of Peugeot, which ended in 1992 with the 505 model.",
+            "price": "47.000$"
+        },
+        {
+            "id": 8,
+            "name": "Mitsubishi",
+            "img": "https://www.10wallpaper.com/wallpaper/1920x1080/1110/Mitsubishi_Super_car_Concept_1920x1080.jpg",
+            "text": "The first generation Mitsubishi used technologies such as all-wheel drive, four active wheels, active aerodynamics involving automatically adjustable front and rear spoilers, and electronic control suspension (ECS). There was no active aerodynamics on the Dodge Stealth. The 3000GT engine had four camshafts, two turbochargers with an intercooler and multi-point fuel injection into the cylinders. The second generation of the model differs from the first primarily in the modified front and rear bumpers, as well as in the side air intakes. The interior has also been redone, there are 2 airbags, a new audio system and air conditioning.",
+            "price": "38.000$"
+        },
+        {
+            "id": 9,
+            "name": "Audi",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR-qUgHAYI0FPgaliVDAFI9fasJPhRhD9hVR3gHW3umg&s",
+            "text": "The model is a hybrid concept car presented in 2013 at the Geneva Motor Show. In May 2013, Audi confirmed its decision to begin production of a hybrid version of the Audi A3 Sportback e-tron, retail sales will begin at the end of 2013 in Europe, and in mid-2014 in the US and UK. The model is equipped with a 1.4 liter L TFSI petrol engine, providing 148 hp. and 184 Nm of torque, combined with 101 hp. electric motor, which is integrated into a six-speed dual-clutch automatic transmission, the total power of the car is 201 hp. and 243 Nm of torque.",
+            "price": "28.000$"
+        },
+        {
+            "id": 10,
+            "name": "Lamborghini",
+            "img": "https://s1.1zoom.me/b5956/608/Lamborghini_LP_610-4_Huracan_Grey_526754_1920x1080.jpg",
+            "text": "Lamborghini grew rapidly during its first ten years, but sales fell in the wake of the 1973 worldwide financial downturn and the oil crisis. Ferruccio Lamborghini sold the company to Georges-Henri Rossetti and René Leimer and retired in 1974. The company went bankrupt in 1978, and was placed in the receivership of brothers Jean-Claude and Patrick Mimran in 1980. The Mimrans purchased the company out of receivership by 1984 and invested heavily in its expansion. Under the Mimrans' management, Lamborghini's model line was expanded from the Countach to include the Jalpa sports car and the LM002 high-performance off-road vehicle.",
+            "price": "50.000$"
+        },
+        {
+            "id": 11,
+            "name": "Mazda",
+            "img": "https://img.goodfon.ru/original/1920x1080/8/12/mazda-cx-5-mazda-fon.jpg",
+            "text": "In 1920, together with a group of investors, the bankrupt construction company Abemaki was acquired by the son of a simple fisherman, Jujiro Matsuda. The company's main product was balsa wood products, the company was named Toyo Cork Kogyo Ltd., and in 1921 Matsuda became its president. In the mid-1920s, the company expanded its product line to include power tools, and the word  was removed from the name in 1927. Mazda tricycle, 1931 In 1931, the company began producing tricycles, which became very popular. In 1932, commercial tricycle exports to China began. Similar vehicles were supplied to the Japanese army during the Second World War. In the 1930s the company established a relationship with the zaibatsu",
+            "price": "43.000$"
+        },
+        {
+            "id": 12,
+            "name": "Cadillac",
+            "img": "https://images.wallpaperscraft.ru/image/single/cadillac_escalade_cadillac_mashina_152182_1920x1080.jpg",
+            "text": "Cadillac is an American luxury car manufacturer owned by General Motors. Until 2018, Cadillac vehicles were at the top of the premium car market in the United States. The main markets are the USA, Canada and China. Cadillac cars are sold in 34 countries.Cadillac was founded in 1902, its founder, Henry M. Leland, a chief mechanic and entrepreneur, named the company in honor of the founder of Detroit, Antoine de Lamothe-Cadillac. Since 1909, the Cadillac automobile brand has been owned by General Motors. Within six years earlier, Cadillac had laid the foundations for modern automobile mass production, demonstrating complete interchangeability and precision.",
+            "price": "46.000$"
+        },
+        {
+            "id": 13,
+            "name": "Tesla",
+            "img": "https://images.wallpaperscraft.ru/image/single/tesla_model_s_tesla_mashina_142847_1920x1080.jpg",
+            "text": "Tesla is an American company, a manufacturer of electric vehicles and solutions (see SolarCity) for storing electricity.The company was founded in July 2003 by Martin Eberhard and Mark Tarpenning, but the current management of the company names Elon Musk, Jeffrey Brian Straubel and Ian Wright as co-founders.In 2019, Tesla became the largest electric vehicle manufacturer in the world. The Tesla Model 3 sedan became the best-selling electric car in history, breaking the 800 thousand mark.On the Forbes Global 2000 list of the world's largest public companies for 2022, Tesla was ranked 151st. In the list of the largest US companies by revenue, Fortune 500 took 65th place.",
+            "price": "52.000$"
+        },
+        {
+            "id": 14,
+            "name": "Porsche",
+            "img": "https://uhdwallpapers.org/download/porsche-911-carrera-2020-4s_74966/1920x1080/",
+            "text": "The company produces luxury sports cars and SUVs. Porsche production largely cooperates with Volkswagen. And in parallel with participation in motorsport, work is underway to improve the design of the car (and its components): in different years, synchronizers for manual transmissions, automatic transmissions with the possibility of manual shifting (later - with shift buttons on the steering wheel), turbocharging for a production car, turbocharging with variable geometry of the turbine impeller in a gasoline engine, electronically controlled suspension, and so on.",
+            "price": "32.000$"
+        },
+        {
+            "id": 15,
+            "name": "Maybach",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMp3DnvccD44Sjpl5DV99wEtqkka4hDLsF64i8s-mKIA&s",
+            "text": "Maybach  is a German automobile company, best known for producing exclusive and expensive high-end cars. Initially, the company was engaged in aircraft engines for airships.[⇨] After the First World War, the production of Maybach cars began. During World War II, Maybach produced engines for Wehrmacht tanks.In 1960, the company was purchased by the Daimler concern; in 1998, the German brand “Daimler” and the American brand “Chrysler” were merged into a single corporation under the German brand, since he is the founder; in 2002, car production was resumed. In November 2011",
+            "price": "30.000$"
+        }
+    ]
+}
+
+const search = document.getElementById('search'); 
+let info_block = document.getElementById('info-block'); 
+
+
+function random() { 
+
+    info_block.innerHTML = `` 
+    const carsArray = cars_info.cars; 
+    const shuffledCars = carsArray.sort(() => Math.random() - 0.5); 
+
+    shuffledCars.forEach(car => { 
+
+        let card = document.createElement("div") 
+        card.classList.add("card") 
+
+        
+        card.innerHTML = `
+            <div class="card-img">
+                <img src="${car.img}" alt="">
+            </div>
+            <div class="card-title">
+                <div class="bigFont">${car.name}</div>
+            </div>
+            <div class="card-text">
+                <p>${car.text}</p>
+            </div>
+            <div class="card-price">
+                <div class="bigFont">${car.price}</div>
+            </div>
+        `;    
+        
+
+        info_block.appendChild(card) 
+
+    });
+
+}
+
+function searchByName(){ 
+    const term = search.value.trim(); 
+
+    const car = cars_info.cars.find(car => car.name.toLowerCase() === term.toLowerCase()); 
+    info_block.innerHTML = ``
+    let card = document.createElement("div")
+    card.classList.add("card")
+    card.innerHTML = `
+        <div class="card-img">
+            <img src="${car.img}" alt="">
+        </div>
+        <div class="card-title">
+            <div class="bigFont">${car.name}</div>
+        </div>
+        <div class="card-text">
+            <p>${car.text}</p>
+        </div>
+        <div class="card-price">
+            <div class="bigFont">${car.price}</div>
+        </div>
+    `;    
+    
+    info_block.appendChild(card)
+
+}
+
+
