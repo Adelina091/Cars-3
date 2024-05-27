@@ -79,6 +79,41 @@ const cars_info = {
             "img": "https://s1.1zoom.me/b5956/608/Lamborghini_LP_610-4_Huracan_Grey_526754_1920x1080.jpg",
             "text": "Lamborghini grew rapidly during its first ten years, but sales fell in the wake of the 1973 worldwide financial downturn and the oil crisis. Ferruccio Lamborghini sold the company to Georges-Henri Rossetti and René Leimer and retired in 1974. The company went bankrupt in 1978, and was placed in the receivership of brothers Jean-Claude and Patrick Mimran in 1980. The Mimrans purchased the company out of receivership by 1984 and invested heavily in its expansion. Under the Mimrans' management, Lamborghini's model line was expanded from the Countach to include the Jalpa sports car and the LM002 high-performance off-road vehicle.",
             "price": "50.000$"
+        },
+        {
+            "id": 11,
+            "name": "Mazda",
+            "img": "https://img.goodfon.ru/original/1920x1080/8/12/mazda-cx-5-mazda-fon.jpg",
+            "text": "In 1920, together with a group of investors, the bankrupt construction company Abemaki was acquired by the son of a simple fisherman, Jujiro Matsuda. The company's main product was balsa wood products, the company was named Toyo Cork Kogyo Ltd., and in 1921 Matsuda became its president. In the mid-1920s, the company expanded its product line to include power tools, and the word  was removed from the name in 1927. Mazda tricycle, 1931 In 1931, the company began producing tricycles, which became very popular. In 1932, commercial tricycle exports to China began. Similar vehicles were supplied to the Japanese army during the Second World War. In the 1930s the company established a relationship with the zaibatsu",
+            "price": "43.000$"
+        },
+        {
+            "id": 12,
+            "name": "Cadillac",
+            "img": "https://images.wallpaperscraft.ru/image/single/cadillac_escalade_cadillac_mashina_152182_1920x1080.jpg",
+            "text": "Cadillac is an American luxury car manufacturer owned by General Motors. Until 2018, Cadillac vehicles were at the top of the premium car market in the United States. The main markets are the USA, Canada and China. Cadillac cars are sold in 34 countries.Cadillac was founded in 1902, its founder, Henry M. Leland, a chief mechanic and entrepreneur, named the company in honor of the founder of Detroit, Antoine de Lamothe-Cadillac. Since 1909, the Cadillac automobile brand has been owned by General Motors. Within six years earlier, Cadillac had laid the foundations for modern automobile mass production, demonstrating complete interchangeability and precision.",
+            "price": "46.000$"
+        },
+        {
+            "id": 13,
+            "name": "Tesla",
+            "img": "https://images.wallpaperscraft.ru/image/single/tesla_model_s_tesla_mashina_142847_1920x1080.jpg",
+            "text": "Tesla is an American company, a manufacturer of electric vehicles and solutions (see SolarCity) for storing electricity.The company was founded in July 2003 by Martin Eberhard and Mark Tarpenning, but the current management of the company names Elon Musk, Jeffrey Brian Straubel and Ian Wright as co-founders.In 2019, Tesla became the largest electric vehicle manufacturer in the world. The Tesla Model 3 sedan became the best-selling electric car in history, breaking the 800 thousand mark.On the Forbes Global 2000 list of the world's largest public companies for 2022, Tesla was ranked 151st. In the list of the largest US companies by revenue, Fortune 500 took 65th place.",
+            "price": "52.000$"
+        },
+        {
+            "id": 14,
+            "name": "Porsche",
+            "img": "https://uhdwallpapers.org/download/porsche-911-carrera-2020-4s_74966/1920x1080/",
+            "text": "The company produces luxury sports cars and SUVs. Porsche production largely cooperates with Volkswagen. And in parallel with participation in motorsport, work is underway to improve the design of the car (and its components): in different years, synchronizers for manual transmissions, automatic transmissions with the possibility of manual shifting (later - with shift buttons on the steering wheel), turbocharging for a production car, turbocharging with variable geometry of the turbine impeller in a gasoline engine, electronically controlled suspension, and so on.",
+            "price": "32.000$"
+        },
+        {
+            "id": 15,
+            "name": "Maybach",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMp3DnvccD44Sjpl5DV99wEtqkka4hDLsF64i8s-mKIA&s",
+            "text": "Maybach  is a German automobile company, best known for producing exclusive and expensive high-end cars. Initially, the company was engaged in aircraft engines for airships.[⇨] After the First World War, the production of Maybach cars began. During World War II, Maybach produced engines for Wehrmacht tanks.In 1960, the company was purchased by the Daimler concern; in 1998, the German brand “Daimler” and the American brand “Chrysler” were merged into a single corporation under the German brand, since he is the founder; in 2002, car production was resumed. In November 2011",
+            "price": "30.000$"
         }
     ]
 }
